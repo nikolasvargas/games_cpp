@@ -53,7 +53,7 @@ int main()
         {
             if (e.type == Event::Closed)
                 app.close();
-			   	
+
 			if (e.type == Event::MouseButtonPressed)
 				if (e.key.code == Mouse::Left)
 				{
@@ -61,7 +61,7 @@ int main()
 				   pos = Mouse::getPosition(app)-offset;
                 }
          }
-	
+
    // mouse click
    if (click==1)
     {
